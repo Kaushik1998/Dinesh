@@ -1,0 +1,7 @@
+1. See All button in Services : Open new Page with all services providing
+1.1 Use Isotope to create categories like Buy Repair Protect
+1.2 Add a Device wise category for Laptop Desktop Mobile
+2. Customer Reviews
+3. Call and Email feature button
+4. Shop section and link : Build a amazon like webpage to showcase all products
+5. Update companies carousel
