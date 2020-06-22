@@ -1,9 +1,4 @@
-/**
-* Template Name: iPortfolio - v1.2.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -151,7 +146,7 @@
         items: 2
       },
       900: {
-        items: 3
+        items: 5
       }
     }
   });
