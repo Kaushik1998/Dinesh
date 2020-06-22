@@ -919,14 +919,73 @@ section {
   border-radius: 4px;
 }
 
-.whatsapp a{
-  display: block;
-  background: #149ddd;
-  border: 0;
-  padding: 10px 24px;
+.whatsapp::before{
+  content: "\f232";
+  font-family: FontAwesome;
+}
+
+.phone::before{
+  content: "\f095";
+  font-family: FontAwesome;
+}
+
+.button-effect {
+  padding: 30px 0px;
+}
+
+.effect {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
   color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
+  text-transform: capitalize;
+  /* background-color: - add your own background-color */
+
+  /* put your font-family */
+  font-size: 18px;
+  padding: 20px 0px;
+  width: 150px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.button-effect a {
+  background-color:#149ddd;
+}
+
+.effect.effect-4 {
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-4:before {
+
+  color: white;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-4:hover {
+  text-indent: -9999px;
+}
+.effect.effect-4:hover:before {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  text-indent: 0;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
