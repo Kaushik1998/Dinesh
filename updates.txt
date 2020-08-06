@@ -7,4 +7,4 @@
 5. Update companies carousel
 6. Add messaging feature : Customer can fill his details and Dinesh will get a message with hish details
 7. Change Mobile View : Add a contact me button on landing page
-8. Add indiamart like websites
+8. Add indiamart,Google business,Google ads, Bing business, Pinterest like websites
