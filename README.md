@@ -1,1 +1,1 @@
-DK Site 1.5.0
+DK Site 1.6.0
